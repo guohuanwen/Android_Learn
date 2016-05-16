@@ -1,0 +1,7 @@
+#View结构  
+View(抽象类，实现Drawable.Callback)
+
+  ViewGroup  
+    ViewParent(接口类，封装对 父view 子view的一些方法)  
+    ViewManage(接口类，封装 对子view的操作，添加，更新，移除)
+
