@@ -1,5 +1,6 @@
 #View结构  
-View(抽象类，实现Drawable.Callback)
+View(抽象类，实现Drawable.Callback,按键接口回调，AccessibilityEventSource接口留给做自动化辅助的)  
+
 
   ViewGroup  
     ViewParent(接口类，封装对 父view 子view的一些方法)  
